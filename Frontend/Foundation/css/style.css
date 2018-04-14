@@ -1,0 +1,14 @@
+.navbar_header_background
+{
+    height: 40px;
+    
+    background-color: #f5f7fa;
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    border-bottom: 1px solid #e6e9ed;
+}
+
+.navbar_header
+{
+    height: 40px;
+    background-image: url(../images/icon-mail-1.png)
+}

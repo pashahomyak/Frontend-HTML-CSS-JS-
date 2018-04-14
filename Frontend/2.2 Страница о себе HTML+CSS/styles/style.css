@@ -1,0 +1,146 @@
+div
+{
+    border: 1px solid #fff;
+}
+.clear
+{
+    clear: both;
+}
+
+.main_container
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sidebar
+{
+    float: left;
+    width: 330px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.photo
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.quote
+{
+    margin-top: 150px;
+    width: 570px;
+    height: 300px;
+    margin-left: 410px;
+    
+}
+
+.text
+{
+    width: 570px;
+    margin-top: 50px;
+    margin-left: 410px;
+}   
+
+.list_header
+{
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(21, 169, 140);
+    font-weight: bold;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+.list
+{
+    margin-left: -20px;
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+
+.quotes
+{
+    position: absolute;
+    background-image: url("quotes.png");
+    width: 130px;
+    height: 87px;
+}
+
+.quote_text
+{
+    font-size: 28px;
+    color: rgb(132,132,132);
+    font-family: "Georgia";
+    font-style: italic;
+    margin-top: 79px;
+    margin-left: 65px;
+    line-height: 28px;
+}
+
+.quote_author
+{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 28px;
+    margin-left: 65px;
+}
+
+.text_head
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 34px;
+}
+
+.rectangle
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    margin-top: 0;
+    margin-bottom: 52px;
+}
+
+.text_description
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.my_work
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+a
+{
+    font-size: 19px;
+    font-family: "Georgia";
+    color: rgb(21, 169, 139);
+    text-decoration: none;
+    padding-bottom: 135px;
+}
+
