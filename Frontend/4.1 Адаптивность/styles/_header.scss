@@ -1,0 +1,169 @@
+.menu
+{
+    margin-left: 19.75%;
+}
+
+.menu_icon 
+{
+    display: none;
+    width: 45px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    
+    margin-top: 8px;
+}
+
+.menu_icon
+{
+    span
+    {
+        display: block;
+        position: absolute;
+        height: 9px;
+        width: 100%;
+        background: #333333;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;    
+    }
+    
+    span:nth-child(1)
+    {
+        top: 0;
+    }
+    
+    span:nth-child(2), span:nth-child(3)
+    {
+        top: 13px;
+    }
+    
+    span:nth-child(4)
+    {
+        top: 26px;
+    }
+}
+
+.menu_links_item
+{
+    display: inline-block;
+    font-size: 19px;
+    font-family: "Georgia";
+    line-height: 1;
+    height: 34.5px;
+    
+    list-style: none;
+    
+    text-decoration: none;
+    
+    color: rgb(51, 51, 51);
+    
+    padding-top: 15.5px;
+    padding-left: 45px;
+    padding-right: 22px; 
+}
+
+.menu_links_item:hover
+{
+    background-color: #15a98c;
+    color: #fff;
+}
+
+.about_me_icon
+{
+    background-image: url(../images/about_me_icon.png);
+    background-position: 20px 18px;
+    background-repeat: no-repeat;
+}
+
+.hobby_icon
+{
+    background-image: url(../images/hobby_icon.png);
+    background-position: 19px 18px;
+    background-repeat: no-repeat;
+}
+
+.video_icon
+{
+    background-image: url(../images/video_icon.png);
+    background-position: 19px 17px;
+    background-repeat: no-repeat;
+}
+
+.about_me_icon:hover
+{
+    background-image: url(../images/about_me_icon_active.png);
+}
+
+.hobby_icon:hover
+{
+    background-image: url(../images/hobby_icon_active.png);
+}
+
+.video_icon:hover
+{
+    background-image: url(../images/video_icon_active.png);
+}
+
+.menu.menu_state_open
+{
+    .menu_links 
+    {
+        display: block;    
+    }
+    
+    .menu_icon
+    {
+        span:nth-child(1), span:nth-child(4)
+        {
+            top: 18px;
+            width: 0%;
+            left: 50%;    
+        }
+        
+        span:nth-child(2)
+        {
+            transform: rotate(45deg);    
+        }
+        
+        span:nth-child(3)
+        {
+            transform: rotate(-45deg);    
+        }
+    }
+}
+
+@media screen and (max-width: 800px) 
+{
+    .menu
+    {
+        margin-left: 5px;
+    }
+    .menu_icon
+    {
+        display: inline-block;
+    }
+  
+    .menu_links 
+    {
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 50px;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        overflow: auto;
+    }
+  
+    .menu_links_item 
+    {
+        display: block;
+        padding-top: 15.5px;
+        text-align: center;
+        color: #ffffff;
+    }
+}

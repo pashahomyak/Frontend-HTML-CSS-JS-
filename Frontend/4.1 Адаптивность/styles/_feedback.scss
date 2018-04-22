@@ -1,0 +1,275 @@
+.feedback
+{
+    max-width: 960px;
+    
+    margin: 0 auto;
+    padding-top: 50px;                      
+}
+
+.feedback_title
+{   
+    width: 700px;
+    height: 50px;
+    
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    
+    background-image: url(../images/line-left.png), url(../images/line-right.png);
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.feedback_title span
+{
+    font-size: 36px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.feedback_block
+{
+    max-width: 540px;
+    
+    margin-top: 48px;
+    margin: 0 auto;
+    
+    padding-top: 26px;
+}
+
+.feedback_form
+{
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+.input_title
+{
+    display: block;
+    width: 100%;
+    
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    
+    margin-bottom: 9px;
+}
+
+.input_window
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px; 
+    
+    padding-left: 18px;
+    margin-bottom: 29px;
+    
+    border-width: 2px;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 3px;
+    
+    font-size: 20px;
+    font-family: "Open Sans"; 
+    
+    transition: all 0.3s ease;
+}
+
+.input_window:hover
+{
+    border: 2px solid #a5a5a5;
+}
+
+.input_window:focus
+{
+    border: 2px solid #15a98b;    
+}
+
+.red_symbol
+{
+    color: red;
+}
+
+select option
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+    
+    margin-top: 4px;
+}
+
+.submit_form
+{
+    width: 220px;
+    height: 50px;
+    
+    border-radius: 5px;
+    
+    margin-bottom: 51px;
+    
+    font-size: 19px;
+    font-family: "Georgia";
+    
+    background-color: #098d72;
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+.radio_gender_man
+{
+    display: inline;
+    margin-right: 8px;
+    margin-bottom: 51px;
+}
+
+.radio_gender_woman
+{
+    display: inline;
+    margin-right: 8px;
+    margin-left: 36px;
+}
+
+.male_female
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";    
+}
+
+.textarea
+{
+    resize: none;
+    
+    box-sizing: border-box;
+    width: 100%;/*518*/
+    height: 146px;
+    
+    padding-left: 18px;
+    margin-bottom: 40px;
+    
+    border-width: 2px;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 3px;
+    
+    transition: all 0.3s ease;
+    
+    font-size: 20px;
+    font-family: "Open Sans";  
+}
+
+.textarea:hover
+{
+    border: 2px solid #a5a5a5;
+}
+
+.textarea:focus
+{
+    border: 2px solid #15a98b;    
+}
+
+.input_for_gender
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    display: block;
+    width: 100%;
+    
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    line-height: 1;   
+}
+
+.country_title
+{
+    display: block;
+    width: 100%;
+    
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.input_country
+{
+    width: 100%;
+    height: 50px; 
+    
+    padding-bottom: 2px;
+    padding-left: 17px;
+    margin-bottom: 27px;
+    
+    border-width: 2px;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 3px;
+    
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: rgb(85, 85, 85);
+    
+    transition: all 0.3s ease; 
+}
+
+.input_country:hover
+{
+    border: 2px solid #a5a5a5;    
+}
+
+.input_country:focus
+{
+    border: 2px solid #15a98b;
+}
+
+select
+{
+    -webkit-appearance: none;
+    
+    background-image: url(../images/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 96.7% center; 
+    
+}
+
+@media all and (max-width: 830px)
+{
+    .feedback_title
+    {
+        background-image: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 560px)
+{
+    .feedback
+    {
+        padding: 0 5px;
+    }
+    
+    .radio_gender_woman
+    {
+        margin-left: 15px;
+    }
+    .footer_text
+    {
+        font-size: 14px;
+    }
+}

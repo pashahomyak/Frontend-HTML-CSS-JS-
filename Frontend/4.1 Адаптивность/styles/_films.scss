@@ -1,0 +1,146 @@
+img
+{
+    image-rendering: crisp-edges;
+}
+
+.films
+{
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    
+    padding-bottom: 60px;
+}
+
+.films_background
+{
+    width: 100%;
+
+    background-color: #f9f9f9;
+    
+    padding-top: 36px;
+}
+
+.block_header
+{
+    font-size: 36px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    line-height: 1.167;
+    
+    margin-top: -2px;
+}
+
+.movie
+{
+    width: 23.75%;
+    
+    float: left;
+    
+    margin-top: 32px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.movie_last
+{
+    @extend .movie;
+    
+    margin-right: 0;
+}
+
+.movie_photo
+{
+    width: 100%;
+    height: 190px;
+    
+    border-radius: 5px;
+    background-color: rgb(70, 70, 70);
+    
+    margin-bottom: 26px;
+}
+
+.movie_header
+{
+    display: block;
+    font-size: 22px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.movie_description
+{
+    width: 100%;
+    font-size: 16px;
+    font-family: "Georgia";
+    color: rgb(85, 85, 85);
+    line-height: 1.75; 
+    
+    margin-top: 20px;
+}
+
+.all_films
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    background-color: #098d72;
+    color: #fff;
+    
+    font-size: 19px;
+    font-family: "Georgia";
+    color: rgb(245, 245, 245);
+    line-height: 50px;
+    
+    text-decoration: none;
+    
+    margin-left: 490px;
+}
+
+@media all and (max-width: 1215px)
+{
+    .films
+    {
+        padding: 0 10px 60px;
+    }
+    
+    .movie, .movie_last
+    {
+        width: 47.5%;
+        
+        float: none;
+        display: inline-block;
+        
+        vertical-align: top;
+    }
+    
+    .movie_photo
+    {
+        height: auto;
+    }
+    
+    .all_films
+    {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 920px)
+{
+    .movie, .movie_last
+    {   
+        width: 100%;
+        
+        margin-right: 0;
+    }
+
+    .movie_description
+    {
+        height: auto;
+    }
+}
